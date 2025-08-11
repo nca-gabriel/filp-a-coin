@@ -5,6 +5,40 @@
   --foreground: #171717;
 }
 
+@font-face {
+  font-family: "Kanit";
+  src: url("/fonts/Kanit/Kanit-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Kanit";
+  src: url("/fonts/Kanit/Kanit-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+.debug {
+  @apply border-2 border-dashed border-red-500;
+}
+
+.debug1 {
+  @apply border-2 border-dashed border-blue-500;
+}
+
+.boxShadow {
+  text-shadow: 2px 2px 0px #35383f;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #35383f;
+}
+
+.buttonShadow {
+  box-shadow: 0px 4px 0px 0px #23649b;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -20,7 +54,7 @@
 }
 
 body {
-  background: var(--background);
+  /* background: var(--background); */
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Kanit", sans-serif;
 }

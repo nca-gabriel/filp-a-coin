@@ -6,10 +6,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+    <html lang="en" className="min-h-screen">
+      <body className="min-h-screen flex flex-col bg-[#404A65]">
         {children}
       </body>
     </html>
