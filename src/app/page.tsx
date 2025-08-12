@@ -2,8 +2,6 @@
 import Image from "next/image";
 import { useState } from "react";
 
-// const result = Math.random() < 0.5 ? "Heads" : "Tails";
-
 export default function Home() {
   const [result, setResult] = useState("Heads");
   return (
