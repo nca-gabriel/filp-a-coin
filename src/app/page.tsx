@@ -5,7 +5,7 @@ import { useState } from "react";
 export default function Home() {
   const [result, setResult] = useState("Heads");
   return (
-    <main className="flex flex-1 w-full max-w-[1750px] mx-auto flex-col justify-center items-center">
+    <main className="flex flex-1 w-full max-w-[1750px] mx-auto flex-col justify-center items-center text-center">
       <h1 className="text-[4rem] font-semibold text-white boxShadow">
         Flip the coin
       </h1>
