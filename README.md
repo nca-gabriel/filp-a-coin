@@ -13,7 +13,6 @@
   <a href="#tech-stack">Tech Stack</a> • 
   <a href="#installation">Installation</a> • 
   <a href="#usage">Usage</a> • 
-  <a href="#license">License</a>
 </p>
 
 <img src="./public/sample.png" alt="" align="center" width="auto" height="auto">
