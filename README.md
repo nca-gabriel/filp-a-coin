@@ -1,44 +1,64 @@
-Flip-a-Coin
-A responsive and interactive coin-flipping web application built with Next.js, designed to simulate a coin toss with smooth animations.
+<p align="center">
+  <a href="https://filp-a-coin.vercel.app/" target="_blank">
+    <img src="./public/heads.svg" alt="Flip-a-Coin Demo" width="200"/>
+  </a>
+</p>
 
-🔧 Technologies Used
-Frontend: Next.js, React
+<h1 align="center">Flip-the-Coin</h1>
 
-Styling: Tailwind CSS
+<p align="center">
+  <a href="https://filp-a-coin.vercel.app/" target="_blank">Live Demo</a> • 
+  <a href="#project-description">Project Description</a> • 
+  <a href="#features">Features</a> • 
+  <a href="#tech-stack">Tech Stack</a> • 
+  <a href="#installation">Installation</a> • 
+  <a href="#usage">Usage</a> • 
+  <a href="#license">License</a>
+</p>
 
-Deployment: Vercel
+<img src="./public/sample.png" alt="" align="center" width="auto" height="auto">
 
-🚀 Live Demo
-Experience the app here: filp-a-coin.vercel.app
+---
 
-🧪 Features
-Simulates a coin flip with "Heads" or "Tails" outcomes.
+## Project Description
 
-Responsive design for mobile and desktop views.
+Flip-a-Coin is a **responsive and interactive coin-flipping web app** built with **Next.js** and **Tailwind CSS**.  
+It simulates a coin toss with smooth animations, providing either **Heads** or **Tails** outcomes.  
 
-Smooth animations for coin flip transitions.
+🔗 [Live Demo](https://filp-a-coin.vercel.app/)
 
-📦 Installation
-Clone the repository and install dependencies:
+---
 
-bash
-Copy
-Edit
-git clone https://github.com/Potential-Potato/filp-a-coin.git
+## Features
+
+- Simulates coin flips with random outcomes (**Heads** or **Tails**)  
+- Smooth coin flip animations  
+- Responsive design for both mobile and desktop  
+
+---
+
+## Tech Stack
+
+- **Framework**: Next.js, React  
+- **Styling**: Tailwind CSS  
+- **Deployment**: Vercel  
+
+---
+
+## Installation
+
+```bash
+git clone https://github.com/nca-gabriel/filp-a-coin.git
 cd filp-a-coin
 npm install
-Run the development server:
+``` 
+---
 
-bash
-Copy
-Edit
+## Usage
+
+Start the development server:
+
+```bash
 npm run dev
-🧪 Testing
-Run tests with:
+```
 
-bash
-Copy
-Edit
-npm test
-📄 License
-This project is licensed under the MIT License.
