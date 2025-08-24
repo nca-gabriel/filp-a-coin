@@ -60,7 +60,7 @@ export default function Home() {
         className="w-[10rem] h-[3rem] rounded-lg text-[1.25rem] font-semibold text-white buttonShadow bg-[#1F6FB0]"
         onClick={handleFlip}
       >
-        Random
+        Flip
       </button>
     </main>
   );
