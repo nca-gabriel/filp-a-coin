@@ -29,12 +29,7 @@ export default function Home() {
         Press the coin or the button to flip the coin
       </p>
 
-      <div
-        className={spinning ? "spinY" : ""}
-        onAnimationIteration={() =>
-          setFace((prev) => (prev === "Heads" ? "Tails" : "Heads"))
-        }
-      >
+      <div className={spinning ? "spinY" : ""}>
         <Image
           src={face === "Heads" ? "/heads.svg" : "/tails.svg"}
           alt="coin"
