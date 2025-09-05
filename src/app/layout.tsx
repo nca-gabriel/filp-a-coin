@@ -4,9 +4,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Flip The Coin",
   description: "Coin Flip",
-  icons: {
-    icon: "/heads.svg", // default
-  },
+  // icons: {
+  //   icon: "/heads.svg", // default
+  // },
 };
 
 export default function RootLayout({
